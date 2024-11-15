@@ -85,4 +85,4 @@ for epoch in range(100):  # Number of epochs
     loss = manual_backpropagation(model, input_data, target_label)
     print(f"Epoch {epoch+1}, Loss: {loss}")
 
-    # You could use an optimizer here to update weights if needed
+    
